@@ -30,7 +30,7 @@ Certifique-se de ter o [Java 11](https://www.oracle.com/java/technologies/javase
 1. **Clone o Repositório**
 
     ```bash
-    git clone https://github.com/seuusuario/blockchain-jwt-java.git
+    git clone https://github.com/BulletDEV/BulletBlockchain.git
     cd blockchain-jwt-java
     ```
 
