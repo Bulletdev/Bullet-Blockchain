@@ -106,7 +106,7 @@ Retorno: Bloco recém-minerado
 🗂 Estrutura do Projeto
 
 
-
+<pre>
 src
 ├── main
 │   ├── java
@@ -119,7 +119,7 @@ src
 │   └── resources
 │       └── application.properties # Configuração do Spring Boot
 
-
+</pre>
 
 📝 Licença
 
