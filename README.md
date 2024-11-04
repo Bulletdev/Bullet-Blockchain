@@ -123,4 +123,4 @@ src
 
 📝 Licença
 
-BulletDEV all rights reserveds !
+BulletDEV all rights reserved ♥ !
