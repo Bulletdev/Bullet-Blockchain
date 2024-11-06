@@ -72,34 +72,32 @@ Password: (deixe vazio)
 
 Autenticação
 Registro de Usuário
-http
+
 
 POST /auth/register
 Body: { "username": "user1", "password": "senha123" }
 Login
-http
-Copiar código
+
 POST /auth/login
 Body: { "username": "user1", "password": "senha123" }
 Retorno: { "token": "jwt_token" }
 Blockchain
 
 Ver Blockchain Completa
-http
 
 GET /blockchain/chain
 Headers: Authorization: Bearer {token}
 
 Criar Nova Transação
-http
 
 POST /blockchain/transaction
 Headers: Authorization: Bearer {token}
 Body: { "sender": "public_key", "recipient": "public_key", "value": 10 }
+
 Minerar Bloco
-http
 
 POST /blockchain/mine
+
 Headers: Authorization: Bearer {token}
 Retorno: Bloco recém-minerado
 
@@ -107,6 +105,8 @@ Retorno: Bloco recém-minerado
 
 
 <pre>
+
+  
 src
 ├── main
 │   ├── java
